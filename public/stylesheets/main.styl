@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway')
-body
+body, html	
 	background white
 	font-family 'Raleway', sans-serif
 	margin 0
@@ -20,12 +20,10 @@ h1
   margin 10px
   text-align center
 }
-html
-	height 100%
 .white
 	color white
 
-.fa.fa-twitter, .fa.fa-linkedin, .fa.fa-github
+.fa.fa-linkedin, .fa.fa-github
 	color white
 	flex-grow 1
 	font-size 20px
@@ -70,9 +68,9 @@ html
 	img
 		filter grayscale(100%)
 		transition all 0.5s
-		max-height 200px
+		max-height 10em
 		&:hover
-			max-height 250px
+			max-height 12em
 			filter grayscale(0%)
 .logo, svg
 	width 80%
@@ -142,7 +140,7 @@ html
 		img
 			max-height 5em
 			&:hover
-				max-height 150px
+				max-height 7em
 	.heroText
 		font-size 0.8rem
 		text-align center

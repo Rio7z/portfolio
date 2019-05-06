@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
-body {
+body,
+html {
   background: #fff;
   font-family: 'Raleway', sans-serif;
   margin: 0;
@@ -22,13 +23,9 @@ h1 {
   margin: 10px;
   text-align: center;
 }
-html {
-  height: 100%;
-}
 .white {
   color: #fff;
 }
-.fa.fa-twitter,
 .fa.fa-linkedin,
 .fa.fa-github {
   color: #fff;
@@ -42,7 +39,6 @@ html {
   color: #fff;
   transition: all 0.5s;
 }
-.fa.fa-twitter:hover,
 .fa.fa-linkedin:hover,
 .fa.fa-github:hover {
   cursor: pointer;
@@ -81,10 +77,10 @@ html {
 .item img {
   filter: grayscale(100%);
   transition: all 0.5s;
-  max-height: 200px;
+  max-height: 10em;
 }
 .item img:hover {
-  max-height: 250px;
+  max-height: 12em;
   filter: grayscale(0%);
 }
 .logo,
@@ -161,7 +157,7 @@ svg {
     max-height: 5em;
   }
   .item img:hover {
-    max-height: 150px;
+    max-height: 7em;
   }
   .heroText {
     font-size: 0.8rem;
